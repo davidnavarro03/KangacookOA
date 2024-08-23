@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Home.css"
 import PetitionForm from "./PetitionForm";
 import Signatures from "./Signatures";
+import Navbar from "./Navbar"
 import AlertMessage from "./AlertMessage";
 
 export const MessageContext = React.createContext();
@@ -16,8 +17,8 @@ function Home() {
           .catch(console.error);
       }, []);
     return(
-        <div className='container-fluid bg-light '>
-            <img className="logo" src="/images/download.png" alt=""></img>
+        <div className='container-fluid bg-light'>
+            <Navbar/>
             <div className="d-flex flex-row">
                 <div>
                     <div className="container bg-white border shadow-sm bg-white middle-box">
@@ -27,33 +28,13 @@ function Home() {
                         <div className="font">
                             Many people have signed this petition. Add your name now!
                         </div>
-                        <div className="d-inline-flex profile-comments">
-                            <img className= "profile" src="images/profile-icon-480x480-1.webp" alt=""></img>
-                            <div className="title-prof">
-                                The Office of the Governor
-                            </div>
-                            <div className="title-comments">
-                                161 comments
-                            </div>
-                        </div>
                     </div>
                     <div className="container bg-white border shadow-sm p-3 bg-white middle-box">
-                        <div className="d-inline-flex">
-                            <img className="image" src="images/e8142d65ee88b33663deb97f95db7957.jpg" alt=""></img>
-                            <div>
-                                <div className="text">
-                                    ***The Office of the Governor is the sponsor of this petition, but is NOT the group requesting donations of any kind. You are able to sign the petition without donating to ipetitions which is the platform hosting the petition. No donations to ipetitions is required. DO NOT DONATE.***
-                                </div>
-                                <div className="text2">
-                                    Our students deserve more than just a lecture. They deserve an evening
-                                </div>
-                            </div>
-                        </div>
-                        <div className="font1">
-                            lecture
+                        <div className="d-flex justify-content-center">
+                            <img className="image" src="images/Washington-State-University-Logo.png" alt=""></img>
                         </div>
                         <div className="body-text">
-                            As a student and as your student, I want our className to have access to the best in educational services.
+                            As a student and as your student, I want our class to have access to the best in educational services.
                         </div>
                         <div className="body-text">
                             Limiting ourselves to having className in the morning ensures we will all be tired.
@@ -66,7 +47,7 @@ function Home() {
                         </div>
                         <div className="body-text">
                             <ul>
-                                <li>Starting className at 5:00pm</li>
+                                <li>Starting class at 5:00pm</li>
                             </ul>
                             <ul>
                                 <li>Many sleep schedules being fixed</li>
@@ -85,24 +66,16 @@ function Home() {
                             </ul>
                         </div>
                         <div className="body-text">
-                            Too many of our students have attended morning lectures. And htmlFor too long, we’ve accepted the status quo. We now have a unique opportunity to bring evening lectures here so that evening learning can start where it should–at WSU!
+                            Too many of our students have attended morning lectures. And for too long, we’ve accepted the status quo. We now have a unique opportunity to bring evening lectures here so that evening learning can start where it should–at WSU!
                         </div>
                         <div className="body-text">
-                            Join us on this mission to change the lecture time htmlFor 489!
-                        </div>
-                        <div className="body-text">
-                            For more information, click here.
+                            Join us on this mission to change the lecture time for 489!
                         </div>
                         <div className="body-text">
                             Your Student,
                         </div>
                         <div className="body-text">
                             David Navarro
-                        </div>
-                        <div className="body-text">
-                            <div className="text3">
-                                ***The Office of the Governor is the sponsor of this petition, but is NOT the group requesting donations of any kind. You are able to sign the petition without donating to ipetitions which is the platform hosting the petition. No donations to ipetitions is required. DO NOT DONATE.***
-                            </div>
                         </div>
                     </div>
                     <div class="container bg-white border shadow-sm bg-white middle-box">

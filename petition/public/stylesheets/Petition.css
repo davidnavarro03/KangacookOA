@@ -1,0 +1,87 @@
+.logo{
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.middle-box{
+    margin-left: 110px !important; 
+    padding-left: 25px !important;
+    width: 870px !important; 
+}
+
+.title{
+    padding-top: 10px;;
+}
+
+.profile-comments{
+    margin-top: 10px; margin-bottom: 20px;
+}
+
+.profile{
+    height: 25px;
+}
+
+.title-prof{
+    margin-left: 5px;
+}
+
+.title-comments{
+    margin-left: 70px;
+}
+
+.font{
+    padding-top: 10px;
+    color: #f99400;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.image{
+    height: 300px;
+}
+
+.text{
+    padding-left: 20px;
+    margin-top: 25px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.text2{
+    padding-left: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.font1{
+    font-size: 18px;
+}
+
+.body-text{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text3{
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.right-box{
+    background-color: rgba(211, 225, 243, 0.473) !important;
+    margin-right: 110px !important;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+.comments{
+    color:#ababab;
+    margin-left: -12px;
+    margin-top: 20px;
+}
+
